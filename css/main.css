@@ -1,0 +1,110 @@
+/* 
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+} */
+
+/* колір основного тексту #212121 */
+
+/* колір тексту другорядного #757575 */
+
+/* колір білий #FFFFFF */
+
+/*колір акцент #2196F3 */
+
+/* колір тексту футер rgba(255, 255, 255, 0.4) */
+
+/* другорядний колір фона #F5F4FA */
+
+/* колір фона герой rgb(198, 198, 199) */
+/* 
+/* Герой */
+.hero {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(198, 198, 199);
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+  color: var(--title-text-color);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.works {
+  background-color: rgb(198, 198, 199);
+  text-transform: uppercase;
+}
+
+/* Секції */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* переваги і приклади робіт */
+.feature-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.doing-text {
+  background-color: rgb(47, 48, 58, 0.8);
+  color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-text {
+  color: var(--title-text-color);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+}
+/* Наша команда */
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.feature-list,
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Button */
+
+/* .button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+} */
+
+.button .primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* .list {
+  list-style: none;
+} */
+.hero .button {
+  display: inline-block;
+  padding: 20px 40px;
+}

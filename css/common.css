@@ -1,0 +1,231 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #fff;
+  --white-color: #ffffff;
+  --white-second-color: #f5f4fa;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+/* логотип */
+
+.logo {
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+
+.logo-head {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo-foot {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+/* Навигація сайту */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+/* .site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+} */
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus,
+.studio:hover,
+.portfolio:hover,
+.portfolio:focus,
+.contact:hover,
+.contact:focus,
+.primary:hover,
+.primary:focus,
+.secondary:hover,
+.secondary:focus {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+}
+
+/* конпки контакти */
+.contacts {
+  list-style-type: none;
+}
+.contacts-text {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-text:focus,
+.contacts-text:hover {
+  color: var(--accent-color);
+}
+
+/* футер */
+.page-footer {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.footer-call {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-size: 14px;
+  color: var(--white-color);
+  font-style: normal;
+  line-height: 1.7;
+}
+.caption .contacts-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03;
+}
+.mslling {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyrigyt {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.social .label {
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+
+  color: var(--primary-white-color);
+}
+
+.page-footer h3 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+  color: var(--primary-white-color);
+}
+
+.page-footer .list {
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+  color: var(--primary-white-color);
+}
+
+.button .secondary {
+  text-decoration-line: none;
+  color: var(--primary-white-color);
+}
+
+.page-header {
+  background-color: var(--primary-white-color);
+}
+.list {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
