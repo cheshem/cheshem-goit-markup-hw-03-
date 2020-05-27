@@ -45,10 +45,26 @@ body {
 .section-title {
   color: var(--title-text-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* переваги і приклади робіт */
+
+.img {
+  padding-bottom: 20px;
+  padding-top: 25px;
+  outline: 2px solid tomato;
+  margin-bottom: 30px;
+}
+
 .feature-list .title,
 .work-list .title {
+  outline: 2px solid tomato;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -57,28 +73,43 @@ body {
   text-transform: uppercase;
 }
 .doing-text {
+  margin: 0;
+  padding: 27px;
   background-color: rgb(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--white-color);
   text-align: center;
   text-transform: uppercase;
 }
 .section-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
   color: var(--title-text-color);
   text-align: center;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 /* Наша команда */
 .team-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .feature-list,
 .text {
+  margin: 0;
+  padding: 0;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -107,4 +138,13 @@ body {
 .hero .button {
   display: inline-block;
   padding: 20px 40px;
+}
+.team-position {
+  margin: 0;
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
