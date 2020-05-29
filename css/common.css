@@ -5,6 +5,7 @@
   --background-color: #fff;
   --white-color: #ffffff;
   --white-second-color: #f5f4fa;
+  --white-bg-color: #e5e5e5;
 }
 html {
   box-sizing: border-box;
@@ -22,6 +23,11 @@ body {
   background-color: var(--background-color);
   letter-spacing: 0.03em;
   margin: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -71,8 +77,54 @@ body {
   color: var(--accent-color);
 }
 /* Навигація сайту */
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+.site-nav .item {
+  outline: 1px solid tomato;
+  /* margin-left: 85px; */
+}
+
+.cont-nav .list > .item {
+  margin-left: 30px;
+}
+.site-nav .list {
+  margin-left: 85px;
+}
+
+/* .site-nav .item:last-child {
+  margin-right: 0;
+} */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.contacts.list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.contacts-list {
+  display: flex;
+}
+.cont-nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.cont-nav > .item {
+  margin-left: 30px;
+}
 
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -202,14 +254,14 @@ body {
 .page-header {
   background-color: var(--primary-white-color);
 }
-.list {
+/* .list {
   text-decoration: none;
   list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
+} */
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -223,9 +275,4 @@ body {
   padding: 10px 32px;
   display: inline-block;
   min-width: 200px;
-}
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }

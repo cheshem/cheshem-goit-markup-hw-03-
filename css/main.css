@@ -35,6 +35,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
+
 .works {
   background-color: rgb(198, 198, 199);
   text-transform: uppercase;
@@ -49,16 +50,36 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section.team {
+  background-color: var(--white-second-color);
+}
 
 /* переваги і приклади робіт */
+.section.advantage {
+  border: 1px solid #ececec;
+}
 
-.img {
+.iteam .img {
+  display: block;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-bottom: 20px;
   padding-top: 25px;
   outline: 2px solid tomato;
   margin-bottom: 30px;
 }
+.adventage .list {
+  display: flex;
+}
 
+.adventage .iteam {
+  margin-right: 30px;
+  width: calc((100% - 90px) / 4);
+}
+
+.adventage .iteam:nth-child(4) {
+  margin: 0;
+}
 .feature-list .title,
 .work-list .title {
   outline: 2px solid tomato;
@@ -147,4 +168,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+}
+.team img {
+  display: block;
+  margin-bottom: 30px;
 }
