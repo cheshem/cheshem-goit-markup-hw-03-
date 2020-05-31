@@ -18,7 +18,6 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  /* list-style: none; */
 }
 
 p {
@@ -31,6 +30,11 @@ p {
   letter-spacing: 0.03em;
   list-style: none;
 }
+
+.in-hide {
+  display: none;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -52,10 +56,10 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-
-  /* width: calc((100% - 60px) / 3);
+}
+.cards .projects-item {
   border: 1px solid #eeeeee;
-  border-radius: 5px; */
+  border-radius: 5px;
 }
 .projects-item:nth-child(3) {
   margin-right: 0;
@@ -63,13 +67,6 @@ p {
 .projects-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
-/* .projects-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-.projects-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-} */
 
 .projects .list.cards {
   display: flex;
@@ -81,11 +78,7 @@ p {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-/* 
-.button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-} */
+
 .button:hover {
   background-color: var(--accent-color);
 }
@@ -109,19 +102,7 @@ p {
 .container-btn li:nth-child(5n) {
   margin-right: 0;
 }
-/* .item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: calc((100%-60px) / 3);
-} */
-/* .list {
-  text-decoration: none;
-  list-style: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-} */
+
 .line {
   text-decoration: none;
   color: var(--title-text-color);

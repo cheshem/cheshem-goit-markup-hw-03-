@@ -101,7 +101,7 @@ body {
   padding-left: 100px;
   padding-bottom: 20px;
   padding-top: 25px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-bottom: 30px;
 }
 .adventage .list {
@@ -117,7 +117,7 @@ body {
   margin: 0;
 }
 .feature-list .title {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-top: 0;
   margin-bottom: 10px;
   padding: 0;
