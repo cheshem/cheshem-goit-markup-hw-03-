@@ -29,8 +29,8 @@ body {
 .section.hero {
   padding-top: 0;
   padding-bottom: 0;
-  background-image: url("../images/hero.hero.jpg");
-  background-size: cover;
+  /* background-image: url("../images/hero.hero.jpg");
+  background-size: cover; */
 }
 .bg {
   background-color: rgba(47, 48, 58, 0.8);
@@ -210,6 +210,7 @@ body {
 }
 .team .list .icon {
   justify-content: space-evenly;
+  margin-right: 0;
 }
 
 .team .list .svg:hover {
