@@ -61,7 +61,7 @@ p {
   border: 1px solid #eeeeee;
   border-radius: 5px;
 }
-.projects-item:nth-child(3) {
+.projects-item:nth-child(3n) {
   margin-right: 0;
 }
 .projects-item:nth-last-child(-n + 3) {
