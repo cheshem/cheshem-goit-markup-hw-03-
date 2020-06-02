@@ -174,19 +174,24 @@ body {
 .section.team {
   background-color: var(--white-second-color);
 }
+
 .team .list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .team img {
   display: block;
   margin-bottom: 30px;
 }
 .team .item {
+  margin-right: 30px;
   background-color: var(--background-color);
   border-radius: 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.team .item:nth-child(4) {
+  margin-right: 0;
 }
 
 .team-title {
@@ -208,8 +213,14 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team .list .icon {
+.list .icon {
   justify-content: space-evenly;
+  margin-right: 0;
+}
+.list .icon li {
+  margin-right: 10px;
+}
+.list .icon li:nth-child(4) {
   margin-right: 0;
 }
 
@@ -243,7 +254,7 @@ body {
 /* постійні клієнти */
 .customer .list {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 .customer li {
   margin-right: 30px;
@@ -286,7 +297,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.team img {
+/* .team img {
   display: block;
   margin-bottom: 30px;
-}
+} */
