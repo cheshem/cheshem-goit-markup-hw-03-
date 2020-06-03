@@ -173,20 +173,17 @@ body {
   color: var(--accent-color);
 }
 
-.feature-list, .text{
- margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
+.feature-list,
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-
-
 /* футер */
-
 
 .page-footer {
   min-height: 253px;
@@ -199,9 +196,8 @@ body {
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 28px;
-  
 }
-.foot-child .logo-foot{
+.foot-child .logo-foot {
   background-color: var(--backgraund-bg-color);
 }
 .page-footer .address {
@@ -209,15 +205,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.logo-foot {  
-
+.logo-foot {
   color: var(--white-color);
 }
 .logo-foot .link {
-  background-color: var(--backgraund-bg-color)  
+  background-color: var(--backgraund-bg-color);
   display: inline-block;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
+
 .address.company {
   color: var(--white-color);
   margin-bottom: 9px;
@@ -310,9 +306,6 @@ body {
 a {
   text-decoration: none;
 }
-.social .link{
-  
-  background-color: var(--backgraund-bg-color)
-  
+.social .link {
+  background-color: var(--backgraund-bg-color);
 }
-
