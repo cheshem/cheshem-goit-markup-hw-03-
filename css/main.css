@@ -216,6 +216,7 @@ body {
 .list .icon {
   justify-content: space-evenly;
   margin-right: 0;
+  padding-bottom: 24px;
 }
 .list .icon li {
   margin-right: 10px;
@@ -297,7 +298,3 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-/* .team img {
-  display: block;
-  margin-bottom: 30px;
-} */
