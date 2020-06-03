@@ -179,10 +179,7 @@ body {
   display: flex;
   /* justify-content: space-between; */
 }
-/* .team img {
-  display: block;
-  margin-bottom: 30px;
-} */
+
 .team .item {
   margin-right: 30px;
   background-color: var(--background-color);
@@ -203,6 +200,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  outline: 2px solid tomato;
 }
 
 .team-position {
@@ -223,6 +221,11 @@ body {
 }
 .list .icon li:nth-child(4) {
   margin-right: 0;
+}
+.team .foto {
+  display: block;
+  margin-bottom: 30px;
+  outline: 2px solid tomato;
 }
 
 .team .list .svg:hover {
