@@ -200,7 +200,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  outline: 2px solid tomato;
 }
 
 .team-position {
@@ -211,7 +210,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.list .icon {
+.list.icon {
   justify-content: space-evenly;
   margin-right: 0;
   padding-bottom: 24px;
@@ -225,7 +224,6 @@ body {
 .team .foto {
   display: block;
   margin-bottom: 30px;
-  outline: 2px solid tomato;
 }
 
 .team .list .svg:hover {
