@@ -179,10 +179,10 @@ body {
   display: flex;
   /* justify-content: space-between; */
 }
-.team img {
+/* .team img {
   display: block;
   margin-bottom: 30px;
-}
+} */
 .team .item {
   margin-right: 30px;
   background-color: var(--background-color);
